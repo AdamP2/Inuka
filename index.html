@@ -1,0 +1,440 @@
+<!DOCTYPE html>
+<html>
+<title></title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Raleway">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<link rel="stylesheet" href="custom.css">
+<body>
+
+<!-- Navbar (sit on top) -->
+<div class="w3-top">
+  <div class="w3-bar w3-white w3-card" id="myNavbar">
+    <a href="#home" class="w3-bar-item w3-button w3-wide"><img src="media/logo1.png.crdownload" id="logo-img" alt="logo" width="65" height="55"></a>
+    <!-- Right-sided navbar links -->
+    <div class="w3-right w3-hide-small">
+      <a href="#about" class="w3-bar-item w3-button">ABOUT US</a>
+      <a href="#team" class="w3-bar-item w3-button"><i class="fa fa-user"></i> My Profile</a>
+      <a href="#work" class="w3-bar-item w3-button"><i class="fa fa-th"></i>BUSINESS TOOL PACK </a>
+      <a href="#pricing" class="w3-bar-item w3-button"><i class="fa fa-usd"></i> BUSINESS KITS</a>
+      <a href="#contact" class="w3-bar-item w3-button"><i class="fa fa-envelope"></i> CONTACT</a>
+    </div>
+    <!-- Hide right-floated links on small screens and replace them with a menu icon -->
+
+    <a href="javascript:void(0)" class="w3-bar-item w3-button w3-right w3-hide-large w3-hide-medium" onclick="w3_open()">
+      <i class="fa fa-bars"></i>
+    </a>
+  </div>
+</div>
+
+<!-- Sidebar on small screens when clicking the menu icon -->
+<nav class="w3-sidebar w3-bar-block w3-black w3-card w3-animate-left w3-hide-medium w3-hide-large" style="display:none" id="mySidebar">
+  <a href="javascript:void(0)" onclick="w3_close()" class="w3-bar-item w3-button w3-large w3-padding-16">Close ×</a>
+  <a href="#about" onclick="w3_close()" class="w3-bar-item w3-button">ABOUT</a>
+  <a href="#team" onclick="w3_close()" class="w3-bar-item w3-button">TEAM</a>
+  <a href="#work" onclick="w3_close()" class="w3-bar-item w3-button">WORK</a>
+  <a href="#pricing" onclick="w3_close()" class="w3-bar-item w3-button">PRICING</a>
+  <a href="#contact" onclick="w3_close()" class="w3-bar-item w3-button">CONTACT</a>
+</nav>
+
+<!-- Header with full-height image -->
+<header class="bgimg-1 w3-display-container w3-grayscale-min" id="home">
+  <div class="w3-display-left w3-text-white" style="padding:48px">
+    <span class="w3-jumbo w3-hide-small" style="color: black !important;" >Start something that matters</span><br>
+    <span class="w3-xxlarge w3-hide-large w3-hide-medium" style="color: black !important;">Start something that matters</span><br>
+    <span class="w3-large" style="color: black !important;">INUKA ALWAYS WITH YOU.</span>
+    <p><a href="#about" class="w3-button w3-white w3-padding-large w3-large w3-margin-top w3-opacity w3-hover-opacity-off" style="color: black !important;">Learn more and start today</a></p>
+  </div> 
+  <div class="w3-display-bottomleft w3-text-grey w3-large" style="padding:50px 48px;color: black;">
+    <i class="fa fa-facebook-official w3-hover-opacity"></i>
+    <i class="fa fa-instagram w3-hover-opacity"></i>
+    <i class="fa fa-snapchat w3-hover-opacity"></i>
+    <i class="fa fa-pinterest-p w3-hover-opacity"></i>
+    <i class="fa fa-twitter w3-hover-opacity"></i>
+    <i class="fa fa-linkedin w3-hover-opacity"></i>
+  </div>
+</header>
+
+
+<!-- Brief -->
+<div class="w3-container" style="padding:16px;background-color: brown;" id="her">
+  <center><h1>INUKA By </h1></center>
+  <h3 class="w3-center">Welcome to INUKA Fragrances, please read the following presentation about us and what this unique business opportunity can do for you.</h3>
+  <center><p>
+    <h3>PDF INUKA Product Brochure 2021</h3>
+    <p style="background-color: pink;"> <a href="media/INUKA_Product_Brochure_2021.pdf" id="br" style="background-color: slategrey;">Brochure</a>.</p>
+  </p>
+</center>
+</div>
+
+
+<!-- Brief -->
+
+<!-- About Section -->
+<div class="w3-container" style="padding:128px 16px" id="about">
+  <h3 class="w3-center">ABOUT INUKA </h3>
+  <div class="w3-row-padding w3-center" style="margin-top:64px">
+    <div class="w3-quarter">
+      <i class="fa fa-exclamation" style="font-size:75px;"></i>
+      <p class="w3-large">About</p>
+      <p>Inuka is a network marketing company that sells wholesale perfumes and perfumed products to independent entrepreneurs. The Inuka Business Opportunity requires no registration cost or major investment, other than samples of the products and an Inuka Business Startup kit.
+      </p>
+    </div>
+    <div class="w3-quarter">
+      <i class="fa fa-globe w3-margin-bottom w3-jumbo w3-center"  aria-hidden="true"></i>
+      <p class="w3-large">Best Of Products</p>
+      <p>The fragrance oils used in our
+        perfumed products are created
+        by respected perfumery
+        companies with centuries
+        of expertise, staying at the
+        forefront of technology to set
+        popular trends.
+        While fragrance oils are
+        imported from Europe,
+        all products are proudly
+        manufactured in Africa.</p>
+    </div>
+    <div class="w3-quarter">
+      <i class="fa fa-heart w3-margin-bottom w3-jumbo"></i>
+      <p class="w3-large">Passion</p>
+      <p>Our product formulations and
+        ingredients are exclusively
+        designed for INUKA with
+        active ingredients to create
+        a superior and long-lasting
+        experience.
+        The INUKA perfumes consist
+        of a least 22 % natural A-grade
+        fragranced oils..</p>
+    </div>
+    <div class="w3-quarter">
+      <i class="fa fa-diamond w3-margin-bottom w3-jumbo"></i>
+      <p class="w3-large">Design</p>
+      <p>Our perfumed products are
+        the best quality fine fragrance
+        experience available.
+        All our products are packaged
+        in distinctive branded INUKA
+        packaging..</p>
+    </div>
+  </div>
+</div>
+
+<!-- Promo Section - "We know design" -->
+<div class="w3-container w3-light-grey" style="padding:128px 16px">
+  <div class="w3-row-padding">
+    <div class="w3-col m6">
+      <h3>We know design.</h3>
+      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod<br>tempor incididunt ut labore et dolore.</p>
+      <p><a href="#work" class="w3-button w3-black"><i class="fa fa-th"> </i> View Our Works</a></p>
+    </div>
+    <div class="w3-col m6">
+      <img class="w3-image w3-round-large" src="media/WhatsApp Image 2021-03-02 at 12.45.29.jpeg" alt="Buildings" width="700" height="394">
+    </div>
+  </div>
+</div>
+
+<!-- Team Section -->
+<div class="w3-container" style="padding:128px 16px" id="team">
+  <h3 class="w3-center">THE ME TEAM</h3>
+  <p class="w3-center w3-large">The ones who runs this company</p>
+  <div class="w3-row-padding w3-grayscale" style="margin-top:64px">
+    <div class="w3-col l3 m6 w3-margin-bottom">
+      <div class="w3-card">
+        <img src="media/WhatsApp Image 2021-03-02 at 12.45.35.jpeg" alt="John" style="width:100%">
+        <div class="w3-container">
+          <h3>John Doe</h3>
+          <p class="w3-opacity">Your Mentor</p>
+          <p>Phasellus eget enim eu lectus faucibus vestibulum. Suspendisse sodales pellentesque elementum.</p>
+          <p><button class="w3-button w3-light-grey w3-block"><i class="fa fa-envelope"></i> Contact</button></p>
+        </div>
+      </div>
+    </div>
+    <div class="w3-col l3 m6 w3-margin-bottom">
+      <div class="w3-card">
+        <img src="media/WhatsApp Image 2021-03-02 at 12.45.35.jpeg" alt="Jane" style="width:100%">
+        <div class="w3-container">
+          <h3>Anja Doe</h3>
+          <p class="w3-opacity">Your Coach</p>
+          <p>Phasellus eget enim eu lectus faucibus vestibulum. Suspendisse sodales pellentesque elementum.</p>
+          <p><button class="w3-button w3-light-grey w3-block"><i class="fa fa-envelope"></i> Contact</button></p>
+        </div>
+      </div>
+    </div>
+    <div class="w3-col l3 m6 w3-margin-bottom">
+      <div class="w3-card">
+        <img src="media/WhatsApp Image 2021-03-02 at 12.45.35.jpeg" alt="Mike" style="width:100%">
+        <div class="w3-container">
+          <h3>Mike Ross</h3>
+          <p class="w3-opacity">Your Adviser</p>
+          <p>Phasellus eget enim eu lectus faucibus vestibulum. Suspendisse sodales pellentesque elementum.</p>
+          <p><button class="w3-button w3-light-grey w3-block"><i class="fa fa-envelope"></i> Contact</button></p>
+        </div>
+      </div>
+    </div>
+    <div class="w3-col l3 m6 w3-margin-bottom">
+      <div class="w3-card">
+        <img src="media/WhatsApp Image 2021-03-02 at 12.45.35.jpeg" alt="Dan" style="width:100%">
+        <div class="w3-container">
+          <h3>Dan Star</h3>
+          <p class="w3-opacity">Your Supplier</p>
+          <p>Phasellus eget enim eu lectus faucibus vestibulum. Suspendisse sodales pellentesque elementum.</p>
+          <p><button class="w3-button w3-light-grey w3-block"><i class="fa fa-envelope"></i> Contact</button></p>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- Promo Section "Statistics" -->
+<div class="w3-container w3-row w3-center w3-dark-grey w3-padding-64">
+  <div class="w3-quarter">
+    <span class="w3-xxlarge">R10000</span>
+    <br>Sapphire |by month 8| 1950PV
+  </div>
+  <div class="w3-quarter">
+    <span class="w3-xxlarge">R3000</span>
+    <br>Emrald |by month 6| 580P
+  </div>
+  <div class="w3-quarter">
+    <span class="w3-xxlarge">R2000</span>
+    <br>Ruby |by month 4| 230P
+  </div>
+  <div class="w3-quarter">
+    <span class="w3-xxlarge">R1000</span>
+    <br>Pearl |by month 2| 95PV
+  </div>
+  <div class="w3-quarter">
+    <span class="w3-xxlarge">+</span>
+    <br>Senior || 45PV
+  </div>
+  <div class="w3-quarter">
+    <span class="w3-xxlarge">+</span>
+    <br>Junior || 20PV
+  </div>
+  <div class="w3-quarter">
+    <span class="w3-xxlarge">+</span>
+    <br>New Member
+  </div>
+</div>
+
+<!-- Work Section -->
+<div class="w3-container" style="padding:128px 16px" id="work">
+  <h3 class="w3-center">SOME OF OUR PRODUCTS</h3>
+  <p class="w3-center w3-large">Packages for people</p>
+  <p class="w3-center w3-large">for more products go the brochure on top or <br/><a href="#about">!!click here</a>  </p>
+
+  <div class="w3-row-padding" style="margin-top:64px">
+    <div class="w3-col l3 m6">
+      <img src="media/inuka3.jpeg" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity" alt="A microphone">
+    </div>
+    <div class="w3-col l3 m6">
+      <img src="media/0001.jpg" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity" alt="A phone">
+    </div>
+    <div class="w3-col l3 m6">
+      <img src="media/0002.jpg" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity" alt="A drone">
+    </div>
+    <div class="w3-col l3 m6">
+      <img src="media/inuka6.jpg" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity" alt="Soundbox">
+    </div>
+  </div>
+
+  <div class="w3-row-padding w3-section">
+    <div class="w3-col l3 m6">
+      <img src="media/Hnet.com-image.jpg" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity" alt="A tablet">
+    </div>
+    <div class="w3-col l3 m6">
+      <img src="media/Hnet.com-image7.jpg" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity" alt="A camera">
+    </div>
+    <div class="w3-col l3 m6">
+      <img src="media/inuka8.jpg" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity" alt="A typewriter">
+    </div>
+    <div class="w3-col l3 m6">
+      <img src="media/Hnet.com-image7.jpg" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity" alt="A tableturner">
+    </div>
+  </div>
+</div>
+
+<!-- Modal for full size images on click-->
+<div id="modal01" class="w3-modal w3-black" onclick="this.style.display='none'">
+  <span class="w3-button w3-xxlarge w3-black w3-padding-large w3-display-topright" title="Close Modal Image">×</span>
+  <div class="w3-modal-content w3-animate-zoom w3-center w3-transparent w3-padding-64">
+    <img id="img01" class="w3-image">
+    <p id="caption" class="w3-opacity w3-large"></p>
+  </div>
+</div>
+
+
+<!-- Pricing Section -->
+<div class="w3-container w3-center w3-dark-grey" style="padding:25px 16px" id="pricing">
+  <h3>BUSINESS KITS</h3>
+  <p class="w3-large">There are five kits to choose from when joining INUKA. Start your business from as little as R600
+    INUKA business kits include a variety of our top selling products and all the business tools you need to launch your new INUKA business. Each business Kit comes with a Business Tool Pack.
+    </p>
+  <div class="w3-row-padding" style="margin-top:64px">
+    <div class="w3-third w3-section">
+      <ul class="w3-ul w3-white w3-hover-shadow">
+        <li class="w3-black w3-xlarge w3-padding-32">Small Kit (0pvs)</li>
+        <li class="w3-padding-16"><b>2x </b> Perfumes  </li>
+        <li class="w3-padding-16"><b></b> </li>
+        <li class="w3-padding-16"><b></b> </li>
+        <li class="w3-padding-16"><b> </b> </li>
+        <li class="w3-padding-16">
+          <h2 class="w3-wide">R600.00</h2>
+          <span class="w3-opacity">Approximate Resale Value=R440.00</span>
+        </li>
+        <li class="w3-light-grey w3-padding-24">
+          <button class="w3-button w3-black w3-padding-large">Contact Me</button>
+        </li>
+      </ul>
+    </div>
+    <div class="w3-third">
+      <ul class="w3-ul w3-white w3-hover-shadow">
+        <li class="w3-red w3-xlarge w3-padding-48">Medium Kit (5pvs)</li>
+        <li class="w3-padding-16"><b>5x </b> Perfumes</li>
+        <li class="w3-padding-16"><b>2x </b> Lotions</li>
+        <li class="w3-padding-16"><b>1x </b> Fragranced Dry Oil</li>
+        <li class="w3-padding-16">
+          <h2 class="w3-wide">R1300.00</h2>
+          <span class="w3-opacity">Approximate Resale Value=R1460.00</span>
+          <h2 class="w3-wide">Profit=R160.00</h2>
+        </li>
+        <li class="w3-light-grey w3-padding-24">
+          <button class="w3-button w3-black w3-padding-large">Contact Me</button>
+        </li>
+      </ul>
+    </div>
+    <div class="w3-third w3-section">
+      <ul class="w3-ul w3-white w3-hover-shadow">
+        <li class="w3-black w3-xlarge w3-padding-32">Large Kit (10pvs)</li>
+        <li class="w3-padding-16"><b>8x </b> Perfumes</li>
+        <li class="w3-padding-16"><b>2x </b> Lotions</li>
+        <li class="w3-padding-16"><b>1x </b> Fragranced Dry Oil</li>
+        <li class="w3-padding-16"><b>1x </b> Body Wash</li>
+        <li class="w3-padding-16"><b>1x </b> Roll-on</li>
+        <li class="w3-padding-16"><b>1x </b> Tissue Oil</li>
+        <li class="w3-padding-16">
+          <h2 class="w3-wide">R1800.00</h2>
+          <span class="w3-opacity">Approximate Resale Value=R2390.00</span>
+          <h2 class="w3-wide">Profit=R590.00</h2>
+        </li>
+        <li class="w3-light-grey w3-padding-24">
+          <button class="w3-button w3-black w3-padding-large">Contact Me</button>
+        </li>
+      </ul>
+    </div>
+  </div>
+</div>
+<div class="w3-container w3-center w3-dark-grey" style="padding:2px" id="pricing">
+    <div class="w3-row-padding" style="margin-top:64px">
+    <div class="w3-third w3-section" style="float: left;">
+      <ul class="w3-ul w3-white w3-hover-shadow">
+        <li class="w3-black w3-xlarge w3-padding-32">Junior Kit (20pvs)</li>
+        <li class="w3-padding-16"><b>10GB</b> Perfumes </li>
+        <li class="w3-padding-16"><b>10</b> Lotions</li>
+        <li class="w3-padding-16"><b>10</b> Fragranced Dry Oil</li>
+        <li class="w3-padding-16"><b>10</b> Body Wash</li>
+        <li class="w3-padding-16"><b>10</b> Roll-on</li>
+        <li class="w3-padding-16"><b>10</b> Body Powder</li>
+        <li class="w3-padding-16"><b>10</b> Tissue Oil</li>
+        <li class="w3-padding-16"><b>10</b> Extra Free Perfume Samples</li>
+        <li class="w3-padding-16">
+          <h2 class="w3-wide">R3000.00</h2>
+          <span class="w3-opacity">Approximate Resale Value=R4300.00</span>
+          <h2 class="w3-wide">Profit=R1300.00</h2>
+        </li>
+        <li class="w3-light-grey w3-padding-24">
+          <button class="w3-button w3-black w3-padding-large">Contact Me</button>
+        </li>
+      </ul>
+    </div>
+    <div class="w3-third w3-section" style="float:right;">
+      <ul class="w3-ul w3-white w3-hover-shadow">
+        <li class="w3-black w3-xlarge w3-padding-32">Senior Kit (45pvs)</li>
+        <li class="w3-padding-16"><b>33x </b> Perfumes</li>
+        <li class="w3-padding-16"><b>10x </b> Lotions</li>
+        <li class="w3-padding-16"><b>2x </b> Fragranced Dry Oil</li>
+        <li class="w3-padding-16"><b>2x </b> Body Wash</li>
+        <li class="w3-padding-16"><b>2x </b> Roll-on</li>
+        <li class="w3-padding-16"><b>2x </b> Body Powder</li>
+        <li class="w3-padding-16"><b>2x </b> Tissue Oil</li>
+        <li class="w3-padding-16"><b>20x </b> Extra Free Perfume Samples</li>
+        <li class="w3-padding-16"><b>1x </b> Free Sample Bag</li>
+        <li class="w3-padding-16"><b>1x </b> Deluxe Organiser</li>
+        <li class="w3-padding-16">
+          <h2 class="w3-wide">R6000.00</h2>
+          <span class="w3-opacity">Approximate Resale Value=R9070.00</span>
+          <h2 class="w3-wide">Profit=R3070.00</h2>
+        </li>
+        <li class="w3-light-grey w3-padding-24">
+          <button class="w3-button w3-black w3-padding-large">Contact Me</button>
+        </li>
+      </ul>
+    </div>
+  </div>
+</div>
+
+<!-- Contact Section -->
+<div class="w3-container w3-light-grey" style="padding:128px 16px" id="contact">
+  <h3 class="w3-center">CONTACT</h3>
+  <p class="w3-center w3-large">Lets get in touch. Send us a message:</p>
+  <div style="margin-top:48px">
+    <p><i class="fa fa-map-marker fa-fw w3-xxlarge w3-margin-right"></i> Chicago, US</p>
+    <p><i class="fa fa-phone fa-fw w3-xxlarge w3-margin-right"></i> Phone: +00 151515</p>
+    <p><i class="fa fa-envelope fa-fw w3-xxlarge w3-margin-right"> </i> Email: mail@mail.com</p>
+    <br>
+    <!-- Image of location/map -->
+    <img src="media/inuka-1-page-001.jpg" class="w3-image w3-greyscale" style="width:100%;margin-top:48px">
+  </div>
+</div>
+
+<!-- Footer -->
+<footer class="w3-center w3-black w3-padding-64">
+  <a href="#home" class="w3-button w3-light-grey"><i class="fa fa-arrow-up w3-margin-right"></i>To the top</a>
+  <div class="w3-xlarge w3-section">
+    <i class="fa fa-facebook-official w3-hover-opacity"></i>
+    <i class="fa fa-instagram w3-hover-opacity"></i>
+    <i class="fa fa-snapchat w3-hover-opacity"></i>
+    <i class="fa fa-pinterest-p w3-hover-opacity"></i>
+    <i class="fa fa-twitter w3-hover-opacity"></i>
+    <i class="fa fa-linkedin w3-hover-opacity"></i>
+  </div>
+</footer>
+ 
+
+
+<!----------------------------------------------------------------------------  Script  ------------------------------------------------------------------------------>
+<script>
+// Modal Image Gallery
+function onClick(element) {
+  document.getElementById("img01").src = element.src;
+  document.getElementById("modal01").style.display = "block";
+  var captionText = document.getElementById("caption");
+  captionText.innerHTML = element.alt;
+}
+
+
+// Toggle between showing and hiding the sidebar when clicking the menu icon
+var mySidebar = document.getElementById("mySidebar");
+
+function w3_open() {
+  if (mySidebar.style.display === 'block') {
+    mySidebar.style.display = 'none';
+  } else {
+    mySidebar.style.display = 'block';
+  }
+}
+
+// Close the sidebar with the close button
+function w3_close() {
+    mySidebar.style.display = "none";
+}
+</script>
+<!----------------------------------------------------------------------------  Script  ------------------------------------------------------------------------------>
+
+
+</body>
+</html>
